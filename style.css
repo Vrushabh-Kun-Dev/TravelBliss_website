@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+/* Header  */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #0b3c5d;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fdbb2d;
+    letter-spacing: 1px;
+
+
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #fdbb2d;
+}
+
